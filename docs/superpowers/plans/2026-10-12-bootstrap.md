@@ -31,11 +31,11 @@
 
 **Interfaces:** Sync CLI `--source PATH --destination PATH [--skill NAME] [--dry-run]`; validation CLI `--root PATH`. Success exits 0; invalid source or conflict exits nonzero.
 
-- [ ] Write subprocess integration tests asserting the target can read source files and source edits appear through the link; assert conflict preservation and dry-run causes no writes.
-- [ ] Run `python -m unittest discover -s tests -v`; expect failure because sync implementation does not exist.
-- [ ] Implement preflight validation, non-destructive junction/symlink installation, idempotent repeated invocation, and development validation.
-- [ ] Run the tests; expect all to pass.
-- [ ] Initialize Git on `main`, configure the Aura remote, and retain handoff as an ignored local file.
+- [x] Write subprocess integration tests asserting the target can read source files and source edits appear through the link; assert conflict preservation and dry-run causes no writes.
+- [x] Run `python -m unittest discover -s tests -v`; expect failure because sync implementation does not exist.
+- [x] Implement preflight validation, non-destructive junction/symlink installation, idempotent repeated invocation, and development validation.
+- [x] Run the tests; expect all to pass.
+- [x] Initialize Git on `main`, configure the Aura remote, and retain handoff as an ignored local file.
 
 ### Task 2: Course-paper-writing draft
 
@@ -43,11 +43,11 @@
 
 **Interfaces:** Required frontmatter `name`/`description`; implicit invocation enabled; project state template stores stage, gate evidence, and user text paths.
 
-- [ ] Run first-use baseline without the skill; record concrete premature thesis/outline behavior.
-- [ ] Write entrypoint, four stage guides, outline templates for four paper types, research pack and project-state templates, and a synthetic Stage 1 example.
-- [ ] Run the same first-use request with the skill, then test resumed state and unavailable evidence using independent agents.
-- [ ] Run `python tools/validate_skills.py` and the bundled skill-creator validator; expect pass.
-- [ ] Run `python tools/sync_skills.py`; verify target resolution and Codex `skills/list` discovery.
+- [x] Run first-use baseline without the skill; record concrete premature thesis/outline behavior.
+- [x] Write entrypoint, four stage guides, outline templates for four paper types, research pack and project-state templates, and a synthetic Stage 1 example.
+- [x] Run the same first-use request with the skill, then test resumed state and unavailable evidence using independent agents.
+- [x] Run `python tools/validate_skills.py` and the bundled skill-creator validator; expect pass.
+- [x] Run `python tools/sync_skills.py`; verify target resolution and Codex `skills/list` discovery.
 
 ### Task 3: Verify and publish
 
@@ -55,8 +55,8 @@
 
 **Interfaces:** Local commit and `origin/main` point to the same SHA.
 
-- [ ] Review all public files for private material and incomplete scaffolds.
-- [ ] Obtain independent final review of installation behavior and skill semantics; fix substantive issues and verify.
-- [ ] Run `python -m unittest discover -s tests -v`, `python tools/validate_skills.py`, and `git diff --check`.
-- [ ] Commit and push to Aura's `main`; verify the remote SHA and GitHub metadata.
+- [x] Review all public files for private material and incomplete scaffolds.
+- [x] Obtain independent final review of installation behavior and skill semantics; fix substantive issues and verify.
+- [x] Run `python -m unittest discover -s tests -v`, `python tools/validate_skills.py`, and `git diff --check`.
+- [x] Commit and push to Aura's `main`; verify the remote SHA and GitHub metadata.
 - [ ] Report repository URL, installed skill invocation, validation, and remaining real-case work.

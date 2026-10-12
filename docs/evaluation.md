@@ -51,8 +51,10 @@ Windows 实际安装使用 junction，指向仓库维护源。重复运行报告
 默认 GBK 环境读中文时先出现解码错误，改以 `python -X utf8` 运行后通过，
 没有为此修改系统编码设置或第三方脚本。
 
-同步工具 13 项集成测试在 Windows 通过。Linux 分支由 GitHub Actions 验证，
-在远程 CI 完成前不宣称已经验证。链接目标真实文件可读，源文件新增与修改
+同步工具 13 项集成测试在本机 Windows 通过。首个代码提交 `5128a24` 的
+[GitHub Actions](https://github.com/Breeze-aura/skills/actions/runs/38251841268)
+在 Windows 与 Linux 上均完成清单校验和测试，两个任务结果都是 success。
+链接目标真实文件可读，源文件新增与修改
 可通过目标立即读取；同名冲突预检发生在创建新链接之前。
 
 ### 独立最终审查与修复
@@ -64,6 +66,12 @@ Windows 实际安装使用 junction，指向仓库维护源。重复运行报告
 按字面解析 junction 源路径并核验链接最终目标，检查每个解析后源 skill
 与目标的包含关系。13 项测试全部通过；有效 YAML 的注释和多行描述也能安装。
 审查未发现写作阶段说明之间的实质矛盾。
+
+### 首次发布
+
+已推送到公开仓库 [Breeze-aura/skills](https://github.com/Breeze-aura/skills)，
+本地与远程 `main` 提交一致。公开版本包含通用 skill、模板、prompt、工具与文档；
+原始交接文件和真实个人项目材料不在 Git 跟踪范围内。
 
 ## 局限
 
