@@ -1,0 +1,20 @@
+# Local handoff, working papers, and evaluation scratch files
+SKILLS-HANDOFF.md
+.work/
+local/
+.superpowers/
+
+# Credentials and machine configuration
+.env
+.env.*
+!.env.example
+
+# Python and editors
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
