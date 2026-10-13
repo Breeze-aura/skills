@@ -1,6 +1,6 @@
 interface:
   display_name: "课程小论文写作"
-  short_description: "用选题与要求开始，经立意、证据和亲笔段落推进课程小论文写作"
-  default_prompt: "使用 $course-paper-writing，按我的选题与课程要求开始，先确认当前阶段和立意。"
+  short_description: "立意与全文阅读，网页端讨论成文，回传 Codex 核验与局部校准"
+  default_prompt: "使用 $course-paper-writing，按我的选题、课程要求及已有材料，从未完成阶段继续。"
 policy:
   allow_implicit_invocation: true

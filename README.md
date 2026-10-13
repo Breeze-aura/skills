@@ -9,12 +9,13 @@
 
 | 内容 | 用途 | 状态 |
 | --- | --- | --- |
-| [course-paper-writing](skills/course-paper-writing/README.md) | 2000–5000 字课程论文：立意、资料、大纲、亲笔段落与组装 | 0.4.1-draft |
+| [course-paper-writing](skills/course-paper-writing/README.md) | 课程论文：立意、独立阅读、网页端成文、Codex 核验校准 | 0.5.0-draft |
 | [论文启动 prompt](prompts/course-paper-start.md) | 用选题与要求开始或恢复项目 | 可复制使用 |
 | [paper-search](skills/paper-search/README.md) | 学术元数据检索、项目待读清单与写作资料交接 | 0.2.0-draft |
 
-课程写作初版根据交接设计新建；`paper-search` 从云端已有版本迁入并修订。
-模拟示例只说明交互结构，不代表真实课程实战已完成。
+课程写作已依据实际使用反馈修订；`paper-search` 从云端迁入并修订。
+新版流程将论文生成放在网页端，Codex 接收论文与 return 后核验校准。
+模拟示例只说明交互和验收要求，完整新版链路仍待实战验证。
 
 ## 在 Codex 中全局使用
 
