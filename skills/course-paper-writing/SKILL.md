@@ -2,7 +2,7 @@
 name: course-paper-writing
 description: Use when a user needs a 2000–5000字课程小论文、调研、评论、驳论或综述，或要继续已有课程论文项目；不用于学位论文、期刊长论文或仅独立检索文献。
 metadata:
-  version: "0.4.0-draft"
+  version: "0.4.1-draft"
 ---
 
 # 课程小论文写作
@@ -36,7 +36,8 @@ Gate 认具体意思，不要求用户使用固定口令。确认某阶段不代
 
 - Stage 1：读取 [立意指南](stages/01-direction.md)，提出候选方向后停在 Gate 1。
 - Stage 2：读取 [资料指南](stages/02-research.md)，填 [资料包](templates/research-pack.md)。
-  已安装 `paper-search` 时可用它寻找学术线索；未安装时直接使用浏览和用户文献。
+  已安装 `paper-search` 时可用它寻找学术线索，按 Stage 2 指南接回资料包；
+  检索成功不等于正文已经核实。未安装时直接使用浏览和用户文献。
 - Stage 3：读取 [大纲与亲笔指南](stages/03-outline.md)。按题型选择
   [调研](templates/outline-investigation.md)、[评论](templates/outline-commentary.md)、
   [驳论](templates/outline-rebuttal.md) 或 [综述](templates/outline-review.md) 模板。

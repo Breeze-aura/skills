@@ -1,0 +1,6 @@
+interface:
+  display_name: "论文检索整理"
+  short_description: "按主题检索学术论文，保留来源与阅读状态，并衔接课程论文资料包"
+  default_prompt: "使用 $paper-search 按我的主题检索文献，区分检索线索与已核证据，并保存到当前项目。"
+policy:
+  allow_implicit_invocation: true
